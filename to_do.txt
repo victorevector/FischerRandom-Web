@@ -1,5 +1,9 @@
 To do:
 
 position generator:
-+views.position_generator
-+views.position_generator --> urls.py
++ views.position_generator
++ views.position_generator --> urls.py
++ templates
++ templates/ -->settings.py
++ chess_board.html --> templates/
++index.html that inherits chess_board.html

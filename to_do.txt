@@ -6,4 +6,9 @@ position generator:
 + templates
 + templates/ -->settings.py
 + chess_board.html --> templates/
-+index.html that inherits chess_board.html
+
+
+views.position_generator will.... 
+    output chess piece unicode
+
+

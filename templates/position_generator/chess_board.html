@@ -45,6 +45,16 @@
              a:hover {
                 color: #00FF00;
             }
+
+            button a{
+                font-size: 20px;
+                color: #000;
+
+            }
+            button:hover{
+                background: #000;
+            }
+
         </style>
         <title> Fischer Random Chess Position Generator </title>
 
@@ -75,7 +85,7 @@
             </tr>
         </table>
         <p>
-            <a href='{% url 'position_generator' %}'> Generate Positions </a>
+            <button type="button"><a href='{% url 'position_generator' %}'> Generate Positions </a></button>
         </p>
         <p>
             Fischer Random chess position generator <br>

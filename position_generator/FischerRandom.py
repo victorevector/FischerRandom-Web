@@ -1,5 +1,6 @@
 import random 
 from copy import deepcopy
+
 def fischerize():
     pieces = ['r1','k1','b1','Q','K','b2','k2','r2']
     new_arrangement = []

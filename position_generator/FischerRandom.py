@@ -39,14 +39,14 @@ def htmlize(fischer_arrangement):
     white[white.index('Q')] = '&#9813;'
 
     black = deepcopy(fischer_arrangement)
-    black[black.index('r1')] = '&#9814;'
-    black[black.index('r2')] = '&#9814;'
-    black[black.index('k1')] = '&#9816;'
-    black[black.index('k2')] = '&#9816;'
-    black[black.index('b1')] = '&#9815;'
-    black[black.index('b2')] = '&#9815;'
-    black[black.index('K')] = '&#9812;'
-    black[black.index('Q')] = '&#9813;'
+    black[black.index('r1')] = '&#9820;'
+    black[black.index('r2')] = '&#9820;'
+    black[black.index('k1')] = '&#9822;'
+    black[black.index('k2')] = '&#9822;'
+    black[black.index('b1')] = '&#9821;'
+    black[black.index('b2')] = '&#9821;'
+    black[black.index('K')] = '&#9818;'
+    black[black.index('Q')] = '&#9819;'
 
     return white, black
 

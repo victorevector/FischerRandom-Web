@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+         <style type='text/css'>
+
+            td {
+                color:#000;
+                font-size:60px;
+                height:80px;
+                position:relative;
+                text-decoration:none;
+                text-shadow:0 1px #fff;
+                width:80px;
+            }
+
+            #chess_board { 
+                border:5px solid #333; 
+            }
+            #chess_board td {
+                background:#fff;
+                background:-moz-linear-gradient(top, #fff, #eee);
+                background:-webkit-gradient(linear,0 0, 0 100%, from(#fff), to(#eee));
+                box-shadow:inset 0 0 0 1px #fff;
+                -moz-box-shadow:inset 0 0 0 1px #fff;
+                -webkit-box-shadow:inset 0 0 0 1px #fff;
+                height:80px;
+                text-align:center;
+                vertical-align:middle;
+                width:80px;
+            }
+
+            #chess_board tr:nth-child(odd) td:nth-child(even), #chess_board tr:nth-child(even) td:nth-child(odd) {
+                background:#ccc;
+                background:-moz-linear-gradient(top, #ccc, #eee);
+                background:-webkit-gradient(linear,0 0, 0 100%, from(#ccc), to(#eee));
+                box-shadow:inset 0 0 10px rgba(0,0,0,.4);
+                -moz-box-shadow:inset 0 0 10px rgba(0,0,0,.4);
+                -webkit-box-shadow:inset 0 0 10px rgba(0,0,0,.4);
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        <table id='chess_board' cellpadding='0' cellspacing='0'>
+            <tr>
+                <td>{{b0|safe}}</td>
+                <td>{{b1|safe}}</td>
+                <td>{{b2|safe}}</td>
+                <td>{{b3|safe}}</td>
+                <td>{{b4|safe}}</td>
+                <td>{{b5|safe}}</td>
+                <td>{{b6|safe}}</td>
+                <td>{{b7|safe}}</td>
+            </tr>
+
+               <tr>
+                <td>{{w0|safe}}</td>
+                <td>{{w1|safe}}</td>
+                <td>{{w2|safe}}</td>
+                <td>{{w3|safe}}</td>
+                <td>{{w4|safe}}</td>
+                <td>{{w5|safe}}</td>
+                <td>{{w6|safe}}</td>
+                <td>{{w7|safe}}</td>
+            </tr>
+    </table>
+    </body>
+
+</html>

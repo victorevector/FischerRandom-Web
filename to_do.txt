@@ -1,14 +1,19 @@
 To do:
 
 position generator:
-+ views.position_generator
-+ views.position_generator --> urls.py
+views.position_generator
+views.position_generator --> urls.py
 + templates
 + templates/ -->settings.py
 + chess_board.html --> templates/
 
 
 views.position_generator will.... 
-    output chess piece unicode
+    Generate two lists of chess unicode
+    Render chess_board.html
+
+chess_board.html will...
+    Hardwire chess board made up of html table
+    <td>{ index position }</td>
 
 
